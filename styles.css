@@ -1,0 +1,76 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    background-image: url('https://th.bing.com/th/id/R.5af03738585530fbec261333f2a400a4?rik=lGz3e9z7eSo8VQ&riu=http%3a%2f%2f10wallpaper.com%2fwallpaper%2f1920x1200%2f1206%2fAsian_Women_Red_Dress-Beauty_model_photo_wallpaper_1920x1200.jpg&ehk=pwBDVr11yn3FuScBrjfgz%2fKjVuI39gVVmJlw1wo4548%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+}
+
+header {
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo h1 {
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.login-button button {
+    background-color: orange;
+    color:white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.welcome h2{
+    font-size: 60px;
+    color: white;  
+    text-align: center; 
+    margin-top: 200px;
+} 
+.space {
+   margin-top: 30px;
+}
+
+footer {
+    margin-top: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
